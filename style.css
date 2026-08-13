@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(224, 224, 218)
+}
+
+.title {
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(228, 0, 0);
+    color: white;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    background-color: rgb(12, 182, 12);
+    padding: 8px;
+}
+
+a {
+    font-size: 30px;
+    font-family: "Brush Script MT", cursive;
+    font-weight: bold;
+    color: rgb(168, 154, 11);
+    display: inline-block;
+    background-color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+a:hover {
+    background-color: grey;
+    color: white;
+
+}

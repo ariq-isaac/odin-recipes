@@ -18,17 +18,22 @@ body {
     display: flex;
 }
 
+.navigation li {
+    flex: 1;
+}
+
 a {
+    border: 3px solid rgb(288, 0, 0);
     font-size: 30px;
     font-family: "Brush Script MT", cursive;
     font-weight: bold;
     color: rgb(168, 154, 11);
-    display: inline-block;
+    display: block;
     background-color: white;
     padding: 10px 10px;
     text-decoration: none;
     margin: 5px;
-    flex: 1;
+    
 }
 
 a:hover {
